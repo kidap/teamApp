@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A72E23B81C6A730600A7987D /* CollectionViewCell_Schedule.m in Sources */ = {isa = PBXBuildFile; fileRef = A72E23B71C6A730600A7987D /* CollectionViewCell_Schedule.m */; };
 		A736439C1C693FA6003E8F34 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A736439B1C693FA6003E8F34 /* main.m */; };
 		A736439F1C693FA6003E8F34 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A736439E1C693FA6003E8F34 /* AppDelegate.m */; };
 		A73643A21C693FA6003E8F34 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A73643A11C693FA6003E8F34 /* ViewController.m */; };
 		A73643A51C693FA6003E8F34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A73643A31C693FA6003E8F34 /* Main.storyboard */; };
-		A73643A71C693FA6003E8F34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A73643A61C693FA6003E8F34 /* Assets.xcassets */; };
 		A73643AA1C693FA6003E8F34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A73643A81C693FA6003E8F34 /* LaunchScreen.storyboard */; };
+		A75DF62D1C69AB9F00CC43F9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A75DF62C1C69AB9F00CC43F9 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A72E23B61C6A730600A7987D /* CollectionViewCell_Schedule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell_Schedule.h; sourceTree = "<group>"; };
+		A72E23B71C6A730600A7987D /* CollectionViewCell_Schedule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell_Schedule.m; sourceTree = "<group>"; };
 		A73643971C693FA6003E8F34 /* teamApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = teamApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A736439B1C693FA6003E8F34 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A736439D1C693FA6003E8F34 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -23,9 +26,9 @@
 		A73643A01C693FA6003E8F34 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		A73643A11C693FA6003E8F34 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A73643A41C693FA6003E8F34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A73643A61C693FA6003E8F34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A73643A91C693FA6003E8F34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A73643AB1C693FA6003E8F34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A75DF62C1C69AB9F00CC43F9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,10 +66,12 @@
 				A73643A01C693FA6003E8F34 /* ViewController.h */,
 				A73643A11C693FA6003E8F34 /* ViewController.m */,
 				A73643A31C693FA6003E8F34 /* Main.storyboard */,
-				A73643A61C693FA6003E8F34 /* Assets.xcassets */,
 				A73643A81C693FA6003E8F34 /* LaunchScreen.storyboard */,
 				A73643AB1C693FA6003E8F34 /* Info.plist */,
 				A736439A1C693FA6003E8F34 /* Supporting Files */,
+				A75DF62C1C69AB9F00CC43F9 /* Images.xcassets */,
+				A72E23B61C6A730600A7987D /* CollectionViewCell_Schedule.h */,
+				A72E23B71C6A730600A7987D /* CollectionViewCell_Schedule.m */,
 			);
 			path = teamApp;
 			sourceTree = "<group>";
@@ -137,8 +142,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A75DF62D1C69AB9F00CC43F9 /* Images.xcassets in Resources */,
 				A73643AA1C693FA6003E8F34 /* LaunchScreen.storyboard in Resources */,
-				A73643A71C693FA6003E8F34 /* Assets.xcassets in Resources */,
 				A73643A51C693FA6003E8F34 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -153,6 +158,7 @@
 				A73643A21C693FA6003E8F34 /* ViewController.m in Sources */,
 				A736439F1C693FA6003E8F34 /* AppDelegate.m in Sources */,
 				A736439C1C693FA6003E8F34 /* main.m in Sources */,
+				A72E23B81C6A730600A7987D /* CollectionViewCell_Schedule.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +270,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				INFOPLIST_FILE = teamApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = access.teamApp;
@@ -275,6 +282,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				INFOPLIST_FILE = teamApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = access.teamApp;
@@ -301,6 +309,7 @@
 				A73643B01C693FA6003E8F34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
